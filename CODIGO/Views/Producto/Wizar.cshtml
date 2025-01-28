@@ -1,0 +1,100 @@
+﻿@model ProyectoWizard.Models.Productos
+
+@{
+	ViewData["Title"] = "Wizar";
+}
+<h1>Productos</h1>
+<hr />
+<form asp-action="Wizar">
+<div class="row">
+	<div>
+		<div id="div1">
+			<div class="row">
+				<h4>Inicio</h4>
+				<div class="form-group">
+					<label asp-for="nombre" class="control-label"></label>
+					<input asp-for="nombre" class="form-control" />
+					<span asp-validation-for="nombre" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="precio" class="control-label">Ingresar el precio del producto</label>
+					<input asp-for="precio" class="form-control" />
+					<span asp-validation-for="precio" class="text-danger"></span>
+				</div>
+				<br>
+			</div>
+			<br>
+			<input type="button" value="siguiente" id="btnInicio">
+		</div>
+		<div>
+			<a asp-action="Index">Index</a>
+		</div>
+
+		<div id="div2">
+			<h4>Pagina 2</h4>
+			<div class="form-group">
+				<label asp-for="cantidad" class="control-label"></label>
+				<input asp-for="cantidad" class="form-control" />
+				<span asp-validation-for="cantidad" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="fecha_registro" class="control-label"></label>
+				<input asp-for="fecha_registro" class="form-control" />
+				<span asp-validation-for="fecha_registro" class="text-danger"></span>
+			</div>
+			<br>
+			<input type="button" value="atras" id="btnAtras">
+			<input type="button" value="siguiente" id="btnSiguiente">
+		</div>
+
+		<div id="div3">
+			Pagina Final
+			<div class="form-group form-check">
+				<label class="form-check-label">
+					<input class="form-check-input" asp-for="estado" /> @Html.DisplayNameFor(model => model.estado)
+				</label>
+			</div>
+			<br>
+			<input type="button" value="atras" id="btnAtras3">
+			<input type="button" value="finalizar" id="btnFinalizar">&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="submit" value="Create" class="btn btn-primary" />
+		</div>
+	</div>
+	
+</div>
+</form>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+	<script type="text/javascript">
+		$(document).ready(function() {
+			 $('#div2').hide();
+			 $('#div3').hide();
+			 $('#div4').hide();
+
+			$('#btnInicio').click(function(){
+				$('#div2').show();
+				$('#div1').hide();
+
+			});
+			$('#btnAtras').click(function(){
+				$('#div1').show();
+				$('#div2').hide();
+			});
+			$('#btnSiguiente').click(function(){
+				$('#div3').show();
+				$('#div2').hide();
+			});
+			$('#btnAtras3').click(function(){
+				$('#div2').show();
+				$('#div3').hide();
+			});
+			$('#btnFinalizar').click(function(){
+				$('#div4').show();
+				$('#div3').hide();
+			});
+		});			
+	</script>
+}

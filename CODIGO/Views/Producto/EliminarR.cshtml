@@ -1,0 +1,92 @@
+﻿@model ProyectoWizard.Models.Productos
+
+@{
+    ViewData["Title"] = "Eliminar";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<h1>Eliminar</h1>
+<h3>confirma que desea eliminar ?</h3>
+<div>
+    <h4>Productos</h4>
+    <hr />
+    <dl class="row" >
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cantidad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cantidad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.fecha_registro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.fecha_registro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+    </dl>
+    
+    <form asp-action="Eliminar" method="Delete" >
+        <input type="hidden" asp-for="id_producto" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+@section Scripts {
+    @{
+        // await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        //         jQuery("#some_exchnage_request_form").on( 'submit', function(e){
+
+        //     // some implementation
+        //     // Now showing the alert
+
+        //     e.preventDefault();
+
+        //     jQuery.getScript('https://cdn.jsdelivr.net/npm/sweetalert2@11', function() {
+
+        //     Swal.fire({
+        //       title: 'Do you want Continue ?',
+        //       text: "You need to pay extra amount",
+        //       icon: 'success',
+        //       showCancelButton: true,
+        //       confirmButtonColor: '#3399ff ',
+        //       cancelButtonColor: '#d33',
+        //       confirmButtonText: 'Yes'
+        //     }).then((result) => {
+        //       if (result.isConfirmed) {
+        //         Swal.fire(
+        //           'Confirmed!',
+        //           'You agreed to pay extra amount.',
+        //           'success'
+        //         )
+        //       } else {
+        //         console.log('clicked cancel');
+        //       }
+        //     })
+
+        //     })
+
+        //    // rest of the code
+        // });
+    </script>
+}
