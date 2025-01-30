@@ -33,6 +33,9 @@ namespace ProyectoWizard.Migrations
                     b.Property<int>("cantidad")
                         .HasColumnType("integer");
 
+                    b.Property<bool>("estado")
+                        .HasColumnType("boolean");
+
                     b.Property<DateTime>("fecha_registro")
                         .HasColumnType("timestamp with time zone");
 
@@ -42,12 +45,34 @@ namespace ProyectoWizard.Migrations
                     b.Property<decimal>("precio")
                         .HasColumnType("numeric");
 
-                    b.Property<bool>("estado")
-                        .HasColumnType("boolean");
-
                     b.HasKey("id_producto");
 
                     b.ToTable("Productos");
+                });
+
+            modelBuilder.Entity("ProyectoWizard.Models.Usuario", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<string>("clave")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("correo")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Usuarios");
                 });
 #pragma warning restore 612, 618
         }

@@ -16,5 +16,7 @@ namespace ProyectoWizard.Data
         }
         public DbSet<Productos> Productos { get; set;}
         public DbSet<Productos> tc_producto { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

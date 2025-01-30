@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dicamacho\\Documents\\ProyectoWizard\\ProyectoWizard.csproj": {}
+    "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\ProyectoWizard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dicamacho\\Documents\\ProyectoWizard\\ProyectoWizard.csproj": {
+    "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\ProyectoWizard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dicamacho\\Documents\\ProyectoWizard\\ProyectoWizard.csproj",
+        "projectUniqueName": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\ProyectoWizard.csproj",
         "projectName": "ProyectoWizard",
-        "projectPath": "C:\\Users\\dicamacho\\Documents\\ProyectoWizard\\ProyectoWizard.csproj",
+        "projectPath": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\ProyectoWizard.csproj",
         "packagesPath": "C:\\Users\\dicamacho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dicamacho\\Documents\\ProyectoWizard\\obj\\",
+        "outputPath": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

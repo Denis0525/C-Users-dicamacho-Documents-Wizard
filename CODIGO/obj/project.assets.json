@@ -7747,11 +7747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dicamacho\\Documents\\ProyectoWizard\\ProyectoWizard.csproj",
+      "projectUniqueName": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\ProyectoWizard.csproj",
       "projectName": "ProyectoWizard",
-      "projectPath": "c:\\Users\\dicamacho\\Documents\\ProyectoWizard\\ProyectoWizard.csproj",
+      "projectPath": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\ProyectoWizard.csproj",
       "packagesPath": "C:\\Users\\dicamacho\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dicamacho\\Documents\\ProyectoWizard\\obj\\",
+      "outputPath": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

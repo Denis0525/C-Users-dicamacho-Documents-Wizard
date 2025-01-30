@@ -19,6 +19,12 @@ namespace ProyectoWizard.Controllers
         {
             this._context = context;
         }
+        public async Task<IActionResult> Login()
+        {
+            //var result = await _context.Productos.ToListAsync();
+            return View();
+
+        }
         public async Task<IActionResult> Index()
         {
             var result = await _context.Productos.ToListAsync();
