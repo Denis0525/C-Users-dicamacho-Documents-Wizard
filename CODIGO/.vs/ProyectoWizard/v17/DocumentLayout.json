@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\views\\producto\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:views\\producto\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|c:\\users\\dicamacho\\documents\\wizard\\codigo\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A34D813-CA2E-CBB3-3F09-086B2C2B9537}|ProyectoWizard.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "Views\\Producto\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T20:14:18.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Views\\Producto\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Producto\\Login.cshtml",
@@ -50,51 +67,50 @@
               "RelativeToolTip": "Views\\Producto\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T04:57:49.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T04:57:49.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAswDIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAIwAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T04:49:36.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccesoController.cs",
               "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Controllers\\AccesoController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccesoController.cs",
               "ToolTip": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Controllers\\AccesoController.cs",
               "RelativeToolTip": "Controllers\\AccesoController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwBUAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T04:15:43.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwBwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T04:14:19.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Registrarse.cshtml",
               "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Views\\Acceso\\Registrarse.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Registrarse.cshtml",
@@ -102,12 +118,11 @@
               "RelativeToolTip": "Views\\Acceso\\Registrarse.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T23:27:54.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T23:27:54.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\dicamacho\\Documents\\Wizard\\CODIGO\\Views\\Acceso\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Acceso\\Login.cshtml",
@@ -115,8 +130,7 @@
               "RelativeToolTip": "Views\\Acceso\\Login.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T23:27:52.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T23:27:52.106Z"
             }
           ]
         }

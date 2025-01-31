@@ -1,5 +1,11 @@
 @model IEnumerable<ProyectoWizard.Models.Productos>
+@using System.Security.Claims;
 <div class="card-body">
+	@if (User.Identity!.IsAuthenticated) { 
+	<h1 class="display-4">Bienvenido
+		@User.Claims.Where(c => c.Type == ClaimTypes.Name).Select(c => c.Value).SingleOrDefault()
+	</h1>
+	}
 	<table class="table table-hover">
 		<thead>
 			<tr>
@@ -42,8 +48,6 @@
 						@Html.DisplayFor(modelItem => item.estado)
 					</td>
 					<td>
-
-						@Html.ActionLink("Login", "Login") |
 						@Html.ActionLink("Crear", "Wizar") |
 						@Html.ActionLink("Ver", "Ver", new { id = item.id_producto }) |
 						@Html.ActionLink("Eliminar", "Eliminar", new { id = item.id_producto }) |

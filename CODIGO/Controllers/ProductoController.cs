@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ProyectoWizard.Data;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using ProyectoWizard.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ProyectoWizard.Controllers
 {
+    [Authorize]
     public class ProductoController : Controller
     {
         private readonly ProductosDbContext _context;
@@ -104,7 +109,12 @@ namespace ProyectoWizard.Controllers
             var result = await _context.Productos.FindAsync(id);
             return View(result);
         }
-
+        
+        public async Task<ActionResult> Salir()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToActionPermanent("Login","Acceso");
+        }
     }
     
 }

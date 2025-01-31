@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProyectoWizard.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.CodeAnalysis.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDistributedMemoryCache();
@@ -15,6 +17,13 @@ builder.Services.AddDbContext<ProductosDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+.AddCookie(options =>
+{
+    options.LoginPath = "/Acceso/Login";
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+}
+);
 
 var app = builder.Build();
 
@@ -28,7 +37,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 app.MapStaticAssets();

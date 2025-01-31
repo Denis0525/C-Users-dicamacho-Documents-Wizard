@@ -682,3 +682,4 @@ C:\Users\dicamacho\Documents\Wizard\CODIGO\obj\Debug\net9.0\refint\ProyectoWizar
 C:\Users\dicamacho\Documents\Wizard\CODIGO\obj\Debug\net9.0\ProyectoWizard.pdb
 C:\Users\dicamacho\Documents\Wizard\CODIGO\obj\Debug\net9.0\ProyectoWizard.genruntimeconfig.cache
 C:\Users\dicamacho\Documents\Wizard\CODIGO\obj\Debug\net9.0\ref\ProyectoWizard.dll
+C:\Users\dicamacho\Documents\Wizard\CODIGO\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
